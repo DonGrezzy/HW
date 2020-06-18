@@ -2,9 +2,14 @@
 public class BlaTest {
 
 	public static void main(String[] args) {
-		// TODO Testestest
+
+		System.out.println("Kann ich pushen1?");
 		//NExtextext
 		//sdfghjk
+
+		
+		System.out.println("Testtest");
+		System.out.println("Testtest");
 		System.out.println("Testtest");
 		//TingelTangelBob
 	}
