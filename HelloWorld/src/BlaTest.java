@@ -3,7 +3,8 @@ public class BlaTest {
 
 	public static void main(String[] args) {
 
-		System.out.println("Kann ich pushen1?");
+		System.out.println("Kann ich pushen?");
+		System.out.println("Ja!");
 		//NExtextext
 		//sdfghjk
 
