@@ -2,14 +2,14 @@ package model;
 
 import java.util.ArrayList;
 
-public class Charackter {
+public class Character {
 	String name;
 	int stat;
 	ArrayList<Item> inventory = new ArrayList<>();
 	ArrayList<Skill> skill = new ArrayList<>();
 	Origin origin;
 	
-	public Charackter(String name, int stat, ArrayList<Item> inventory, ArrayList<Skill> skill, Origin origin) {
+	public Character(String name, int stat, ArrayList<Item> inventory, ArrayList<Skill> skill, Origin origin) {
 		
 		this.name = name;
 		this.stat = stat;
@@ -71,7 +71,7 @@ public class Charackter {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Charackter other = (Charackter) obj;
+		Character other = (Character) obj;
 		if (name == null) {
 			if (other.name != null)
 				return false;
