@@ -15,8 +15,7 @@ public class BlaTest {
 		System.out.println("Julian");
 		//TingelTangelBob
 		
-		System.out.println("endlich! :)");
-		//deHeuvel sagt Spring
+		System.out.println("Jakub");
 	}
 
 }
