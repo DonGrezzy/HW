@@ -6,7 +6,7 @@ import javax.swing.ImageIcon;
 public class Item {
 	private String name;
 	private int statbonus;
-	private Icon icon;
+	private Icon icon = new ImageIcon("\\resources\\ak47.png");
 	
 	public Item(String name, int statbonus, Icon icon) {
 		this.name = name;
@@ -47,7 +47,7 @@ public class Item {
 //	public static void main(String[] args) {
 //		String name = "AK47";
 //		int statbonus = 20;
-//		Icon icon = new ImageIcon("\\src\\resources\\ak47.png");
+//		Icon icon = new ImageIcon("\\resources\\ak47.png");
 //		
 //		System.out.println(name);
 //		System.out.println(statbonus);
