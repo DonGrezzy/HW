@@ -12,6 +12,8 @@ public class BlaTest {
 		System.out.println("Testtest");
 		System.out.println("Testtest");
 		//TingelTangelBob
+		
+		System.out.println("endlich! :)");
 	}
 
 }
