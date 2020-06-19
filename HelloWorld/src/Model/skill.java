@@ -1,12 +1,12 @@
-package Model;
+package model;
 
-public class skill {
+public class Skill {
 	String name;
-	int dmagevalue;
+	int damagevalue;
 	
-	public skill(String name, int dmagevalue) {
+	public Skill(String name, int damagevalue) {
 		this.name = name;
-		this.dmagevalue = dmagevalue;
+		this.damagevalue = damagevalue;
 	}
 	public String getName() {
 		return name;
@@ -15,10 +15,10 @@ public class skill {
 		this.name = name;
 	}
 	public int getDmagevalue() {
-		return dmagevalue;
+		return damagevalue;
 	}
-	public void setDmagevalue(int dmagevalue) {
-		this.dmagevalue = dmagevalue;
+	public void setDmagevalue(int damagevalue) {
+		this.damagevalue = damagevalue;
 	}
 	
 	
