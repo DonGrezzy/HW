@@ -24,7 +24,7 @@ public class TopGui extends JPanel {
 		
 		//chargui.charIco	
 		JLabel lblCharIco = new JLabel();
-		lblCharIco.setIcon(new ImageIcon(getClass().getResource("/character/char_empty.png"))); //char werte implementieren !!
+		lblCharIco.setIcon(new ImageIcon(System.getProperty("user.dir")+("/character/char_empty.png"))); //char werte implementieren !!
 		chargui.add(lblCharIco,BorderLayout.CENTER);
 		
 		//chargui.charstat
@@ -63,7 +63,7 @@ public class TopGui extends JPanel {
 		//minimap
 		lblMap = new JLabel();
 		lblMap.setBorder(new LineBorder(new Color(0, 0, 0), 5));
-		lblMap.setIcon(new ImageIcon(getClass().getResource("/map/map_empty.png"))); //MINIMAP implementieren !!
+		lblMap.setIcon(new ImageIcon(System.getProperty("user.dir")+("/map/map_empty.png"))); //MINIMAP implementieren !!
 		add(lblMap,BorderLayout.EAST);
 	}
 }
