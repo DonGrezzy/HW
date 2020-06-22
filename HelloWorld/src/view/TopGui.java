@@ -24,7 +24,7 @@ public class TopGui extends JPanel {
 		
 		//chargui.charIco	
 		JLabel lblCharIco = new JLabel();
-		lblCharIco.setIcon(new ImageIcon(System.getProperty("user.dir")+("/character/char_empty.png"))); //char werte implementieren !!
+		lblCharIco.setIcon(new ImageIcon(System.getProperty("user.dir")+("/resources/character/char_empty.png"))); //char werte implementieren !!
 		chargui.add(lblCharIco,BorderLayout.CENTER);
 		
 		//chargui.charstat
