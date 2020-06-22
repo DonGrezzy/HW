@@ -63,7 +63,7 @@ public class TopGui extends JPanel {
 		//minimap
 		lblMap = new JLabel();
 		lblMap.setBorder(new LineBorder(new Color(0, 0, 0), 5));
-		lblMap.setIcon(new ImageIcon(System.getProperty("user.dir")+("/map/map_empty.png"))); //MINIMAP implementieren !!
+		lblMap.setIcon(new ImageIcon(System.getProperty("user.dir")+("/resources/map/map_empty.png"))); //MINIMAP implementieren !!
 		add(lblMap,BorderLayout.EAST);
 	}
 }

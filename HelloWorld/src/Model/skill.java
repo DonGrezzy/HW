@@ -21,5 +21,11 @@ public class Skill {
 		this.damagevalue = damagevalue;
 	}
 	
+	@Override
+	public String toString() {
+		return name + ", " + damagevalue + " ";
+	}
+	
+	
 	
 }

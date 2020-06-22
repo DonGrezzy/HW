@@ -63,4 +63,11 @@ public class Item {
 		System.out.println(i);
 	}
 	
+	@Override
+	public String toString() {
+		return name + ", " + statbonus + ", " + icon + " ";
+	}
+	
+	
+	
 }

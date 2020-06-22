@@ -33,4 +33,11 @@ public class Origin {
 		public Icon getIcon() {
 			return icon;
 		}
+
+		@Override
+		public String toString() {
+			return  name + ", " + klasse + ", " + icon + " ";
+		}
+		
+		
 }
